@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
  * main - Return program
- * Return: 1
+ *
+ * Description: prints to the standard error
+ * Return: 1(success)
  */
 int main(void)
 {
-	putchar("and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19"\n);
+	fputs("and that piece of art is useful\"", stdout);
+	fputs(" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
-
